@@ -1,0 +1,14 @@
+{
+  "test_id": "T2V_F05",
+  "category": "failure",
+  "description": "Invalid frame rate",
+  "request": {
+    "request_id": "T2V_F05",
+    "prompt": "A campfire in the woods",
+    "fps": 999,
+    "provider": "mock"
+  },
+  "expected_status": "error",
+  "expected_error_code": "INVALID_FPS",
+  "expected_retryable": false
+}

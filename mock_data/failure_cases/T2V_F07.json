@@ -1,0 +1,16 @@
+{
+  "test_id": "T2V_F07",
+  "category": "failure",
+  "description": "Simulated generation timeout",
+  "request": {
+    "request_id": "T2V_F07",
+    "prompt": "A lighthouse in a raging storm",
+    "provider": "mock",
+    "metadata": {
+      "simulate_failure": "TIMEOUT"
+    }
+  },
+  "expected_status": "error",
+  "expected_error_code": "TIMEOUT",
+  "expected_retryable": true
+}

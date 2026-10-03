@@ -1,0 +1,9 @@
+{
+  "test_id": "T2V_012",
+  "category": "detailed",
+  "prompt": "Extreme close-up of a raindrop hitting a still puddle, slow motion, bokeh background, soft natural light.",
+  "duration_seconds": 5,
+  "fps": 16,
+  "resolution": "832x480",
+  "description": "Microscopic fluid impact with shallow depth of field"
+}

@@ -1,0 +1,14 @@
+{
+  "test_id": "T2V_F04",
+  "category": "failure",
+  "description": "Invalid duration (exceeds allowable maximum)",
+  "request": {
+    "request_id": "T2V_F04",
+    "prompt": "A mountain stream",
+    "duration_seconds": 999,
+    "provider": "mock"
+  },
+  "expected_status": "error",
+  "expected_error_code": "INVALID_DURATION",
+  "expected_retryable": false
+}

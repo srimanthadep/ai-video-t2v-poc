@@ -1,0 +1,16 @@
+{
+  "test_id": "T2V_F08",
+  "category": "failure",
+  "description": "Simulated upstream provider outage",
+  "request": {
+    "request_id": "T2V_F08",
+    "prompt": "Desert sand dunes shifting in wind",
+    "provider": "mock",
+    "metadata": {
+      "simulate_failure": "PROVIDER_ERROR"
+    }
+  },
+  "expected_status": "error",
+  "expected_error_code": "PROVIDER_ERROR",
+  "expected_retryable": true
+}

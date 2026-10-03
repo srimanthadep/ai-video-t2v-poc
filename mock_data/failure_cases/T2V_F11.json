@@ -1,0 +1,16 @@
+{
+  "test_id": "T2V_F11",
+  "category": "failure",
+  "description": "Missing output file",
+  "request": {
+    "request_id": "T2V_F11",
+    "prompt": "A sailboat gliding across glass-like water",
+    "provider": "mock",
+    "metadata": {
+      "simulate_failure": "NO_OUTPUT"
+    }
+  },
+  "expected_status": "error",
+  "expected_error_code": "NO_OUTPUT",
+  "expected_retryable": true
+}

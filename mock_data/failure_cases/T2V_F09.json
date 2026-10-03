@@ -1,0 +1,16 @@
+{
+  "test_id": "T2V_F09",
+  "category": "failure",
+  "description": "Simulated out of memory (OOM)",
+  "request": {
+    "request_id": "T2V_F09",
+    "prompt": "Crowded bustling marketplace with thousands of individuals",
+    "provider": "mock",
+    "metadata": {
+      "simulate_failure": "OOM"
+    }
+  },
+  "expected_status": "error",
+  "expected_error_code": "OOM",
+  "expected_retryable": false
+}

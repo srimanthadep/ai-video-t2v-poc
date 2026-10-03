@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "T2V Benchmark Record Schema",
+  "description": "Standardized schema for recording empirical Text-to-Video generation benchmarks",
+  "type": "object",
+  "required": [
+    "run_id",
+    "experiment_id",
+    "timestamp",
+    "model",
+    "provider",
+    "resolution",
+    "fps",
+    "duration_seconds",
+    "generation_time_seconds",
+    "status"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "description": "Unique identifier for this benchmark run"
+    },
+    "experiment_id": {
+      "type": "string",
+      "description": "Experiment identifier (e.g. EXP-01 to EXP-10)"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "model": {
+      "type": "string",
+      "description": "Model evaluated (e.g., Wan2.2-T2V-A14B, Wan2.2-TI2V-5B)"
+    },
+    "provider": {
+      "type": "string",
+      "description": "Execution environment (e.g., fal_ai, wavespeedai, local)"
+    },
+    "hardware": {
+      "type": "string",
+      "description": "GPU or cloud instance used (e.g. NVIDIA RTX 4090, Cloud A100 SXM)"
+    },
+    "quantization": {
+      "type": ["string", "null"],
+      "description": "Precision used: FP8, BF16, INT8, or None"
+    },
+    "resolution": {
+      "type": "string",
+      "description": "Output dimensions WxH"
+    },
+    "fps": {
+      "type": "integer"
+    },
+    "duration_seconds": {
+      "type": "number"
+    },
+    "num_inference_steps": {
+      "type": "integer"
+    },
+    "guidance_scale": {
+      "type": "number"
+    },
+    "generation_time_seconds": {
+      "type": "number",
+      "description": "Measured wall-clock latency in seconds"
+    },
+    "peak_vram_gb": {
+      "type": ["number", "null"],
+      "description": "Peak GPU VRAM allocated during inference"
+    },
+    "cost_usd": {
+      "type": ["number", "null"],
+      "description": "Financial cost incurred for generation"
+    },
+    "visual_quality_score": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Subjective aesthetic score: 1 (severe artifacts) to 5 (flawless)"
+    },
+    "prompt_adherence_score": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Subjective semantic score: 1 (ignored prompt) to 5 (exact compliance)"
+    },
+    "motion_smoothness_score": {
+      "type": ["integer", "null"],
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Motion quality score: 1 (jitter/flicker) to 5 (fluid cinematic)"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["success", "error"]
+    },
+    "error_code": {
+      "type": ["string", "null"]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

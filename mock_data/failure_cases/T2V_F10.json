@@ -1,0 +1,16 @@
+{
+  "test_id": "T2V_F10",
+  "category": "failure",
+  "description": "Corrupted / zero-byte output file detected by validator",
+  "request": {
+    "request_id": "T2V_F10",
+    "prompt": "An astronaut floating in deep space",
+    "provider": "mock",
+    "metadata": {
+      "simulate_failure": "OUTPUT_INVALID"
+    }
+  },
+  "expected_status": "error",
+  "expected_error_code": "OUTPUT_INVALID",
+  "expected_retryable": true
+}

@@ -1,0 +1,9 @@
+{
+  "test_id": "T2V_008",
+  "category": "normal",
+  "prompt": "A train passes through a snowy mountain landscape.",
+  "duration_seconds": 5,
+  "fps": 16,
+  "resolution": "832x480",
+  "description": "Large mechanical object transit through snowy terrain"
+}

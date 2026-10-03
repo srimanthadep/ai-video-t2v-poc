@@ -1,0 +1,14 @@
+{
+  "test_id": "T2V_F06",
+  "category": "failure",
+  "description": "Unsupported resolution (8K)",
+  "request": {
+    "request_id": "T2V_F06",
+    "prompt": "Sunrise over clouds",
+    "resolution": "7680x4320",
+    "provider": "mock"
+  },
+  "expected_status": "error",
+  "expected_error_code": "UNSUPPORTED_RESOLUTION",
+  "expected_retryable": false
+}

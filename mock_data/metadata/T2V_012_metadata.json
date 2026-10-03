@@ -1,0 +1,28 @@
+{
+  "request_id": "T2V_012",
+  "status": "success",
+  "data_type": "MOCK",
+  "timestamp": "2026-10-03T09:33:13.005716+00:00",
+  "video_path": "C:\\Users\\srima\\Desktop\\ai-video-t2v-poc\\mock_data\\videos\\mock_T2V_012.mp4",
+  "video_url": null,
+  "duration_seconds": 5.0,
+  "fps": 16.0,
+  "resolution": "832x480",
+  "codec": "h264",
+  "file_size_bytes": 744550,
+  "model": "Wan2.2-T2V-A14B",
+  "provider": "mock",
+  "seed": 42,
+  "generation_time_seconds": 0.191,
+  "cost_usd": 0.0,
+  "error": null,
+  "metadata": {
+    "output_path": "C:\\Users\\srima\\Desktop\\ai-video-t2v-poc\\mock_data\\videos\\mock_T2V_012.mp4",
+    "category": "detailed",
+    "description": "Microscopic fluid impact with shallow depth of field",
+    "ffprobe_validated": true,
+    "prompt": "Extreme close-up of a raindrop hitting a still puddle, slow motion, bokeh background, soft natural light."
+  },
+  "real_video_path": "mock_data\\real_videos\\real_T2V_012.mp4",
+  "source_type": "Open Public Video Dataset"
+}

@@ -1,0 +1,13 @@
+{
+  "test_id": "T2V_F01",
+  "category": "failure",
+  "description": "Empty prompt string",
+  "request": {
+    "request_id": "T2V_F01",
+    "prompt": "",
+    "provider": "mock"
+  },
+  "expected_status": "error",
+  "expected_error_code": "EMPTY_PROMPT",
+  "expected_retryable": false
+}

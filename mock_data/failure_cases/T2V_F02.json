@@ -1,0 +1,12 @@
+{
+  "test_id": "T2V_F02",
+  "category": "failure",
+  "description": "Missing prompt field entirely",
+  "request": {
+    "request_id": "T2V_F02",
+    "provider": "mock"
+  },
+  "expected_status": "error",
+  "expected_error_code": "MISSING_PROMPT",
+  "expected_retryable": false
+}

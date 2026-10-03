@@ -1,0 +1,9 @@
+{
+  "test_id": "T2V_023",
+  "category": "incomplete",
+  "prompt": "Video of things.",
+  "duration_seconds": 5,
+  "fps": 16,
+  "resolution": "832x480",
+  "description": "Abstract and non-descriptive query"
+}

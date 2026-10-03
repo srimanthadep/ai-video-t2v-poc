@@ -1,0 +1,5 @@
+{
+  "benchmark_suite_version": "1.0",
+  "description": "Empirical generation benchmark records. Populated strictly upon execution of live AI inference experiments.",
+  "results": []
+}

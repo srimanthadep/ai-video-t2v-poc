@@ -1,0 +1,9 @@
+{
+  "test_id": "T2V_003",
+  "category": "normal",
+  "prompt": "Close-up of coffee being poured into a white cup.",
+  "duration_seconds": 5,
+  "fps": 16,
+  "resolution": "832x480",
+  "description": "Fluid dynamics close-up with steady framing"
+}

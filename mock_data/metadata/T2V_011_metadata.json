@@ -1,0 +1,28 @@
+{
+  "request_id": "T2V_011",
+  "status": "success",
+  "data_type": "MOCK",
+  "timestamp": "2026-10-03T09:33:12.812048+00:00",
+  "video_path": "C:\\Users\\srima\\Desktop\\ai-video-t2v-poc\\mock_data\\videos\\mock_T2V_011.mp4",
+  "video_url": null,
+  "duration_seconds": 5.0,
+  "fps": 16.0,
+  "resolution": "832x480",
+  "codec": "h264",
+  "file_size_bytes": 5033989,
+  "model": "Wan2.2-T2V-A14B",
+  "provider": "mock",
+  "seed": 42,
+  "generation_time_seconds": 0.237,
+  "cost_usd": 0.0,
+  "error": null,
+  "metadata": {
+    "output_path": "C:\\Users\\srima\\Desktop\\ai-video-t2v-poc\\mock_data\\videos\\mock_T2V_011.mp4",
+    "category": "detailed",
+    "description": "Panoramic landscape sweeping movement with golden hour palette",
+    "ffprobe_validated": true,
+    "prompt": "Aerial drone shot of a winding river through autumn forest, golden hour lighting, slow pan right to left, 4K look."
+  },
+  "real_video_path": "mock_data\\real_videos\\real_T2V_011.mp4",
+  "source_type": "Open Public Video Dataset"
+}

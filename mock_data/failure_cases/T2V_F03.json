@@ -1,0 +1,14 @@
+{
+  "test_id": "T2V_F03",
+  "category": "failure",
+  "description": "Invalid duration (negative number)",
+  "request": {
+    "request_id": "T2V_F03",
+    "prompt": "A running horse",
+    "duration_seconds": -1,
+    "provider": "mock"
+  },
+  "expected_status": "error",
+  "expected_error_code": "INVALID_DURATION",
+  "expected_retryable": false
+}
